@@ -1,0 +1,137 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #fafafa;
+}
+
+/* Book */
+.book-cover {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+
+/* Book Card */
+.book-card .mdl-card__content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-card__image {
+    width: 100%;
+    max-width: 150px;
+    margin: 16px 8px 16px 16px;
+}
+
+.book-card__details {
+    margin: 16px 16px 16px 8px;
+}
+
+.book-card__title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.book-card__info p {
+    margin-bottom: .5em;
+}
+
+.book-card .mdl-card__title-text {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: .25em;
+    line-height: 1.5;
+    align-self: flex-start;
+}
+
+.book-card .mdl-card__actions {
+    margin-top: auto;
+    text-align: right;
+}
+
+
+
+/* Not Found */
+.not-found {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.not-found .material-icons {
+    font-size: 4rem;
+}
+/*aaaaaaaaaaaaaaaaaaaaaadddddddddddddddddddddd*/
+.todo .todo-title {
+    margin-right: auto;
+}
+
+button {
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    color: #757575;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 16px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: rgba(158,158,158,.2);
+}
+
+button:active {
+    background-color: rgba(158,158,158,.4);
+}
+
+button.icon {
+    border-radius: 50%;
+    font-size: 24px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 32px;
+    width: 32px;
+    padding: 0;
+    overflow: hidden;
+    line-height: normal;
+}
+
+button .material-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12px,-12px);
+    line-height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+input {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #757575;
+    padding: .5em;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    outline: none;
+}
